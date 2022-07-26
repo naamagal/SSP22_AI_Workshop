@@ -5,7 +5,7 @@ Usually in this folder you will have the .pth file as well. However, since it wa
 Link for .pth: https://drive.google.com/file/d/1eb0V3ZxJBX1xRU6oIOGKx9uFDydhxtG5/view?usp=sharing
 
 # Config Files
-Here you have the config yolox_l_8x8_300e_coco_airbus.py, however
+Here you have the config yolox_l_8x8_300e_coco_airbus.py as an example of config. More configs you can find in mmdetection dir.
 
 The configs can inherit from other primitive (that inhirit from base) configs, while max of inheritance level is 3. 
 It is recommended to inherit from existing methods, when they share structure with the desired model.
@@ -41,14 +41,21 @@ including the pipelines that are augmenting the data.
 I added a mini test-set with a few examples in the directory "mini_test"..
 just so you can see how the data and the annotations looks like.
 
+The full dataset after pre-process can be downloaded from here: https://drive.google.com/drive/folders/14TbQ0xlcMg4RjYmgmUnPGDJ_cgH7BElR?usp=sharing
+Original files, without pre-processing, can downloaded from Kaggle: https://www.kaggle.com/datasets/airbusgeo/airbus-aircrafts-sample-dataset
+
 ## 3. Scheduler and Runtime Parameters - 'Hyper-Parameters'
 These are more parameters- containing the optimizer parameters, logs, num of epochs, learning rate, warmup phase, etc...
 
 ---
 **Note #1**: 
+
 There are also networks that doesn't work this way, with the 3 parts, but sometimes still can be composed as puzzle...
+
 ---
-**Note #2**: The academy/ research centers are usually those in-charge of developing a new-model or concepts. 
+**Note #2**: 
+
+The academy/ research centers are usually those in-charge of developing a new-model or concepts. 
 Usually the diffrences between the performances of one method in compare to the others are minors, or specifit to the task and it's prior knowledge. 
 However, using the MMCV framework, one can easily be adjusted to these changes, as the format are in well known structure and shell be generic enough for the adaptation.
 ---
