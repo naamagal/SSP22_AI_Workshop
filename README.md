@@ -52,10 +52,8 @@ These are more parameters- containing the optimizer parameters, logs, num of epo
 
 There are also networks that doesn't work this way, with the 3 parts, but sometimes still can be composed as puzzle...
 
----
 **Note #2**: 
 
-The academy/ research centers are usually those in-charge of developing a new-model or concepts. 
-Usually the diffrences between the performances of one method in compare to the others are minors, or specifit to the task and it's prior knowledge. 
-However, using the MMCV framework, one can easily be adjusted to these changes, as the format are in well known structure and shell be generic enough for the adaptation.
+The academy or research centers are usually those in-charge of developing a new-model or concepts. Usually the diffrences between the performances of one method in compare to the others are minors, or specifit to the task and it's prior knowledge. However, using the MMCV framework, one can easily be adjusted to these changes, as the format are in well known structure and shell be generic enough for the adaptation.
+
 ---
